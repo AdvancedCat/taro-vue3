@@ -6,8 +6,10 @@ import Tab1 from './components/tab-1.vue'
 import Tab2 from './components/tab-2.vue'
 import Tab3 from './components/tab-3.vue'
 import User from './components/user.vue'
+import Home from './components/home.vue'
 
 const routes = [
+  { path: '/', component: Home },
   { path: '/tab1', component: Tab1 },
   { path: '/tab2', component: Tab2 },
   { path: '/tab3/:id', component: Tab3 },

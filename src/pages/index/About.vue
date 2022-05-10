@@ -1,6 +1,6 @@
 <template>
   <view class="index">
-    <text>About</text>
+    <text>About部分</text>
   </view>
 </template>
 

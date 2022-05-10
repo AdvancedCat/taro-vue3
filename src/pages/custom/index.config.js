@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: 'count示例'
+  navigationBarTitleText: 'vue-router'
 })

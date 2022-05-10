@@ -1,0 +1,12 @@
+.tab-box{
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tab-item {
+  width: 150px;
+  border: 1px solid black;
+}
