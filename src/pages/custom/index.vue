@@ -2,8 +2,8 @@
   <view>
     <view>
       <a href="../index/index">Go to Index</a>
-      <view @click="showHistory">show history</view>
-      <view @click="showLocation">show location</view>
+      <view @click="showHistory">打印 history</view>
+      <view @click="showLocation">打印 location</view>
 
 
 
@@ -15,7 +15,7 @@
         <router-link class="tab-item" to="/tab1?name=hongxin" replace>Tab 1</router-link> |
         <router-link class="tab-item" to="/tab2">Tab 2</router-link> |
         <router-link class="tab-item" to="/tab3/1234">Tab 3</router-link> |
-        <router-link class="tab-item" :to="{ name: 'user', params: { username: 'hongxin' }}">User</router-link> |
+        <router-link class="tab-item" :to="{ name: 'user', params: { id: '1234' }}">User</router-link> |
       </view>
 
       <router-view></router-view>
